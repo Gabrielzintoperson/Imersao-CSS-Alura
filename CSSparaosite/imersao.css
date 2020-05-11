@@ -1,0 +1,35 @@
+body{
+    background-image:url('https://s2.glbimg.com/Ddtth-6aPHxzooNS__QFdR2lG4Y=/e.glbimg.com/og/ed/f/original/2019/06/28/puffer-fish-573810_960_720.jpg');
+    font-family:'Arial Narrow';
+    background-size: 50vw 50vh;
+}
+
+.menu{
+    background-color: white;    
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+.site-title, .site-subtitle{
+    text-align: center;
+    font-family:'Arial Narrow';
+}
+
+.site-subtitle{
+    font-style: italic;
+}
