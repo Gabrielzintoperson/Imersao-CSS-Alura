@@ -28,7 +28,7 @@ a:hover{
 .site-title, .site-subtitle{
     text-align: center;
     font-family:'Arial Narrow';
-    color : whitesmoke;
+    font-color : whitesmoke;
 }
 
 .site-subtitle{
