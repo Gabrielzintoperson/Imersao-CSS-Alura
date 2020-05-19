@@ -1,43 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu site</title>
-    <link rel="stylesheet" href="CSSparaosite/imersao.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu site</title>
+  <link rel="stylesheet" href="CSSparaosite/imersao.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Pangolin&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/03a90695fe.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-        <div>
-            <h1 class="site-title">Gabriel Jacomassi Dalcuche</h1>
-            <h2 class="site-subtitle">Estudante - Jr. Frontend</h2>
-        </div>    
-    </header>
-    <section>
-        <h2>Portfólio</h2>
-        <figure>
-          <img class="img-portfolio" src="./img/Google-Shopping.jpg" alt="eCommerce">
-          <figcaption>eCommerce</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/53312039_1GG.jpg" alt=">Mobile">
-          <figcaption>Mobile</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/download.jpg" alt="Web design">
-          <figcaption>Web design</figcaption>
-        </figure>
-        <figure>
-          <img class="img-portfolio" src="./img/1_PRBSAEttwhN8CRTj3PWzjA.jpg" alt="Projetos pessoais">
-          <figcaption>Projetos pessoais</figcaption>
-        </figure>
-      </section>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Não têm nada aqui</a></li>
+        <li><a href="#portfolio">O que eu faço</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="titulos">
+      <h1 class="site-title">Gabriel Jacomassi Dalcuche</h1>
+      <h2 class = "site-title">Estudante - Jr. Frontend</h2>
+      <h2 class="site-subtitle">A muito tempo numa galáxia<br> muito muito distante<br>um novo jr. frontend developer<br>nasce pra lutar contra as forças da<br> breguice.</h2>
+    </div>
+  </header>
+  <section class="portfolio" id="portfolio">
+    <h2>O que eu faço</h2>
+    <div class="grid">
+      
+      <figure>
+        <img class="img-portfolio" src="https://www.estudiosite.com.br/img/post/3NxgEp8GntPOmO3sTMhe5b7dc75315927.jpg" alt=">Aluno">
+        <figcaption class="leganda-portfolio">Aluno</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/download.jpg" alt="Web design">
+        <figcaption class="leganda-portfolio">Web design</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="./img/1_PRBSAEttwhN8CRTj3PWzjA.jpg" alt="Projetos pessoais">
+        <figcaption class="leganda-portfolio">Projetos pessoais</figcaption>
+      </figure>
+      <figure>
+        <img class="img-portfolio" src="https://ayltoninacio.com.br/img/p/53w750.jpg" alt="Cursos Atuais">
+        <figcaption class="leganda-portfolio">Curso Atuais</figcaption>
+      </figure>
+    
+    </div>
+  </section>
+  <section class="contato" id="contato">
+    <h2>Contato</h2>
+    <div class="grid-icons">
+      <a target="_blank" href="https://github.com/gabrielzintoperson">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="mailto:vanessa.tonini@caelum.com.br">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
 </body>
 </html>
